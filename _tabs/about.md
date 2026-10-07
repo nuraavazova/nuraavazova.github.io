@@ -23,7 +23,7 @@ Every post follows three steps.
 
 ### Break it
 
-![An attacker forging a JWT while you watch](/assets/img/break-it.jpg){: width="280" .right }
+![An attacker forging a JWT while you watch](/assets/img/break-it.jpg){: width="300" .right }
 
 I reproduce attacks in a lab to understand how they work, step by
 step. That means testing token behavior, authentication flows, and
@@ -32,7 +32,7 @@ security research keep my instincts sharp.
 
 ### Detect it
 
-![You following an attacker's trail through the logs](/assets/img/detect-it.jpg){: width="280" .left }
+![You following an attacker's trail through the logs](/assets/img/detect-it.jpg){: width="300" .right }
 
 Every attack leaves clues: an unusual sign-in, an unexpected consent
 grant, or an alert in Defender. I follow the trail through the logs
@@ -40,7 +40,7 @@ until the activity makes sense.
 
 ### Secure it
 
-![You stopping an attacker's forged token at the door](/assets/img/secure-it.jpg){: width="280" .right }
+![You stopping an attacker's forged token at the door](/assets/img/secure-it.jpg){: width="300" .right }
 
 Finding a weakness is only half the work. I look for practical ways
 to close it, using controls such as Conditional Access, least
