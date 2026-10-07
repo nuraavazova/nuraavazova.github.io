@@ -14,12 +14,11 @@ account shows up on the other side of the world. Often there's a
 simple explanation. Sometimes the details don't add up. This blog is
 about tracing those clues and finding out what happened.
 
-I work across the Microsoft security stack, with Entra ID and
-Defender at the core, alongside Intune, Purview, and AI security.
+I work across the Microsoft security stack, with Entra ID and Defender at the core, alongside Intune and Purview, plus a growing focus on AI security.
 
 ## How I work
 
-Every post follows three steps.
+Finding a problem is only the first chapter. I want the whole story: how the attack works, how to catch it, and how to stop it next time. Every post follows the same three steps.
 
 ### Break it
 
@@ -27,8 +26,7 @@ Every post follows three steps.
 
 I reproduce attacks in a lab to understand how they work, step by
 step. That means testing token behavior, authentication flows, and
-security controls in a safe environment. Bug bounty work and web
-security research keep my instincts sharp.
+security controls in a safe environment. Web security research and bug bounty labs keep my instincts sharp.
 
 ### Detect it
 
@@ -46,8 +44,7 @@ Finding a weakness is only half the work. I look for practical ways
 to close it, using controls such as Conditional Access, least
 privilege, and correct token validation.
 
-I also help secure AI systems, because AI tools are quickly becoming
-part of the attack surface. Securing AI is part of cloud security, too.
+I also help secure AI systems, because AI tools are quickly becoming part of the attack surface.
 
 ## Why I write
 
@@ -55,12 +52,9 @@ Cybersecurity can sound intimidating, and the technical details can
 get dense. I explain them in clear, practical language so you can
 follow how an attack works, even if you're not a security expert.
 
-Writing also helps me check whether I really understand what I've
-found. Every post follows the same path: **break it, detect it,
-secure it.**
+Writing also helps me check whether I really understand what I've found. If I can't explain it simply, I'm not done investigating.
 
 If you're learning, defending a tenant, or curious about how logins
 go wrong, pull up a chair.
 
-First writeup coming soon: **JWT algorithm confusion**, when a server
-accepts a token signed with an algorithm it never should have trusted.
+First writeup coming soon: **JWT algorithm confusion**, when a server lets the token itself decide how it gets verified.
