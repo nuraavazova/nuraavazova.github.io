@@ -4,39 +4,66 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Every login tells a story. I like finding the ones that don't add up.
+## Hi, I'm Nura 👋
 
-I'm Nura, a cloud security professional working across the
-Microsoft security stack. My core is identity and threat
-protection: Microsoft Entra ID (Conditional Access, privileged
-access, token theft, OAuth flows) and Microsoft Defender
-(spotting the signals an attack leaves behind and responding
-before it spreads). Around that, I work with Intune to secure
-devices, Purview to protect data, and Microsoft's AI tools,
-where I focus on keeping AI from becoming the weakest link.
+I'm a cloud security professional who reads sign-in logs like mystery
+novels.
+
+Someone signs in from home at 9:02. Eleven minutes later, the same
+account shows up on the other side of the world. Often there's a
+simple explanation. Sometimes the details don't add up. This blog is
+about tracing those clues and finding out what happened.
+
+I work across the Microsoft security stack, with Entra ID and
+Defender at the core, alongside Intune, Purview, and AI security.
+
+## Meet Dash
+
+Dash is a dachshund and my sidekick for investigating suspicious
+activity. In the illustrations, he follows a crafty raccoon as it
+tries to slip forged tokens past the defenses. Together, they
+represent the three steps behind every post.
+
+![A raccoon forging a JWT while Dash watches](/assets/img/break-it.jpg)
+
+### Break it
+
+I reproduce attacks in a lab to understand how they work, step by
+step. That means testing token behavior, authentication flows, and
+security controls in a safe environment. Bug bounty work and web
+security research keep my instincts sharp.
+
+![Dash following the raccoon's paw prints across a log scroll](/assets/img/detect-it.jpg)
+
+### Detect it
+
+Every attack leaves clues: an unusual sign-in, an unexpected consent
+grant, or an alert in Defender. I follow the trail through the logs
+until the activity makes sense.
+
+![Dash as a doorman stopping a forged token](/assets/img/secure-it.jpg)
+
+### Secure it
+
+Finding a weakness is only half the work. I look for practical ways
+to close it, using controls such as Conditional Access, least
+privilege, and correct token validation.
+
+I also help secure AI systems, because AI tools are quickly becoming
+part of the attack surface. Securing AI is part of cloud security, too.
 
 ## Why I write
 
-What I enjoy most is the hunt: following an authentication flow
-or an alert step by step until one small detail gives it away.
-Bug bounty and web security research sharpen that instinct, and
-writing is how I make sure I truly understand what I find.
+Cybersecurity can sound intimidating, and the technical details can
+get dense. I explain them in clear, practical language so you can
+follow how an attack works, even if you're not a security expert.
 
-## What you'll find here
+Writing also helps me check whether I really understand what I've
+found. Every post follows the same path: **break it, detect it,
+secure it.**
 
-Every post follows one rule: **break it, detect it, secure it.**
+If you're learning, defending a tenant, or curious about how logins
+go wrong, pull up a chair.
 
-- **Break it:** how a vulnerability or attack works, step by step
-- **Detect it:** what it looks like in the logs and in Defender
-- **Secure it:** how to prevent it in a real cloud environment
-
-Expect JWT and OAuth flaws, Entra ID and Defender deep dives,
-device and data protection with Intune and Purview, API
-security, and prompt injection in AI-powered tools.
-
-## Coming soon
-
-First up: **JWT algorithm confusion**, where a server can be
-tricked into trusting a token it should never accept.
-
-Thanks for stopping by.
+First writeup coming soon: **JWT algorithm confusion**, when a server
+accepts a token signed with an algorithm it never should have trusted.
