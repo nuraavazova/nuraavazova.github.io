@@ -17,33 +17,30 @@ about tracing those clues and finding out what happened.
 I work across the Microsoft security stack, with Entra ID and
 Defender at the core, alongside Intune, Purview, and AI security.
 
-## Meet Dash
+## How I work
 
-Dash is a dachshund and my sidekick for investigating suspicious
-activity. In the illustrations, he follows a crafty raccoon as it
-tries to slip forged tokens past the defenses. Together, they
-represent the three steps behind every post.
-
-![A raccoon forging a JWT while Dash watches](/assets/img/break-it.jpg)
+Every post follows three steps.
 
 ### Break it
+
+![An attacker forging a JWT while you watch](/assets/img/break-it.jpg){: width="280" .right }
 
 I reproduce attacks in a lab to understand how they work, step by
 step. That means testing token behavior, authentication flows, and
 security controls in a safe environment. Bug bounty work and web
 security research keep my instincts sharp.
 
-![Dash following the raccoon's paw prints across a log scroll](/assets/img/detect-it.jpg)
-
 ### Detect it
+
+![You following an attacker's trail through the logs](/assets/img/detect-it.jpg){: width="280" .left }
 
 Every attack leaves clues: an unusual sign-in, an unexpected consent
 grant, or an alert in Defender. I follow the trail through the logs
 until the activity makes sense.
 
-![Dash as a doorman stopping a forged token](/assets/img/secure-it.jpg)
-
 ### Secure it
+
+![You stopping an attacker's forged token at the door](/assets/img/secure-it.jpg){: width="280" .right }
 
 Finding a weakness is only half the work. I look for practical ways
 to close it, using controls such as Conditional Access, least

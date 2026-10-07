@@ -1,0 +1,31 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* Start each section below any floated image from the previous one */
+.content h2,
+.content h3 {
+  clear: both;
+}
+
+/* On phones: don't float images, stack them centered instead */
+@media (max-width: 576px) {
+  .content .left,
+  .content .right {
+    float: none !important;
+    display: block;
+    margin: 1rem auto !important;
+  }
+}
