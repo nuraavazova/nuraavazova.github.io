@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" role="img" aria-label="Topology: client traffic goes through the firewall trust and untrust interfaces to the internet; firewall logs go from the management interface to a log forwarder and on to Microsoft Sentinel.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-label="Topology: client traffic goes through the firewall trust and untrust interfaces to the internet; firewall logs go from the management interface to a log forwarder and on to Microsoft Sentinel.">
   <defs>
     <marker id="ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#14171a"/></marker>
     <marker id="grn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2c5e45"/></marker>
