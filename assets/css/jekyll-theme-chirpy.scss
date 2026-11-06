@@ -76,3 +76,8 @@ h1, h2, h3, h4,
 .content .table-wrapper > table {
   width: 100%;
 }
+
+/* Let table cells wrap instead of overflowing */
+.content .table-wrapper > table td {
+  white-space: normal;
+}
