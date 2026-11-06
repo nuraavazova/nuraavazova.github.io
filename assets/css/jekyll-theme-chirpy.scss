@@ -42,8 +42,13 @@
   --main-border-color: #d9d6cc;
 }
 
-/* Default (no toggle clicked) and sun icon: Chirpy shows light in both */
-html:not([data-mode]), html[data-mode='light'] { @include news-light; }
+/* Chirpy 7 marks the active scheme with data-bs-theme */
+:root[data-bs-theme='light'] { @include news-light; }
+
+/* Before the script sets it, follow the system setting */
+@media (prefers-color-scheme: light) {
+  :root:not([data-bs-theme]) { @include news-light; }
+}
 
 h1, h2, h3, h4,
 .post-preview h1, #sidebar .site-title {
