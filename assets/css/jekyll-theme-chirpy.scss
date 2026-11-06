@@ -71,3 +71,8 @@ h1, h2, h3, h4,
   color: #2c5e45;
   border-bottom: 3px solid #2c5e45;
 }
+
+/* Tables span the full text column */
+.content .table-wrapper > table {
+  width: 100%;
+}
