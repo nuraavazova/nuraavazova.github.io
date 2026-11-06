@@ -3,7 +3,7 @@ title: "Palo Alto VM-Series to Microsoft Sentinel: native syslog vs CEF, side by
 date: 2026-11-06 10:00:00 -0800
 categories: [Microsoft Sentinel, Network Security]
 tags: [sentinel, palo-alto, azure, syslog, cef, ama, kql]
-description: I built a three-NIC Palo Alto firewall in Azure, sent its logs to Sentinel in both native and CEF format, and pushed a real client's traffic through it. Here's the design, what broke, and what I'd keep.
+description: I built a three-NIC Palo Alto firewall in Azure, sent its logs to Sentinel in both native and CEF format, and pushed a real client's traffic through it. Here's the design, how I proved it works, and what I'd keep.
 ---
 
 Most "connect your firewall to Sentinel" guides stop at the connector page showing green. I wanted something I could actually trust in an investigation: a real client behind the firewall, real traffic logs in the workspace, and a clear answer to which log format is worth paying for.
@@ -91,35 +91,6 @@ This is the part that turns "logs arrive" into "logs mean something."
 - Source NAT rule `client-snat`: dynamic IP and port, translated to the `ethernet1/1` interface address. Azure then maps that private IP to the untrust public IP.
 
 How I checked it: the client VM's **effective routes** showed my user route `0.0.0.0/0 → 10.20.2.4` as *Active* and Azure's default internet route as *Invalid*. That's the proof the client can't sneak around the firewall.
-
-## What broke (and what I learned from it)
-
-> **The marketplace wizard's NSG allowed SSH and HTTPS from Any.** On a firewall's management interface. I deleted both and allowed HTTPS from my /32 only. "My IP address" in the portal didn't save, so I typed the /32 by hand.
-{: .prompt-warning }
-
-> **A pasted IP address failed validation in PAN-OS.** It looked right, but had hidden characters from the copy. Typing it by hand fixed it.
-{: .prompt-tip }
-
-> **My static routes disappeared.** Clicking *Cancel* on the virtual router dialog throws away routes you added inside it, even if you clicked OK on each route. Click OK on the router itself.
-{: .prompt-warning }
-
-> **Never put the Azure public IP in the NAT rule.** The firewall never sees that address on its interface; Azure translates the private untrust IP to the public IP outside the VM. The NAT rule uses the interface's private address.
-{: .prompt-warning }
-
-> **The client VM's NIC came up with no NSG at all.** I added one, deleted the preset SSH rule, and left it with no inbound rules.
-{: .prompt-warning }
-
-> **`service-http` is not just port 80.** The built-in object includes 8080. I built my own service with exactly 80 and 443, and left the source port empty (source ports are random).
-{: .prompt-tip }
-
-> **The NSG destination has to be Any, not the firewall.** A forwarded packet keeps the website as its destination. The firewall is just the next hop, so a rule naming the firewall's IP never matches.
-{: .prompt-info }
-
-> **The Host column in the Configuration log is the admin's browser IP,** not the syslog source. Don't use it to prove where logs came from.
-{: .prompt-info }
-
-> **vCPU quota counts deallocated VMs.** Firewall (8) + forwarder (2) + client (2) = 12 vCPUs, so I raised my regional quota before building.
-{: .prompt-tip }
 
 ## The five values that must match
 
