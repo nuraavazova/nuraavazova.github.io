@@ -62,10 +62,11 @@ In PAN-OS: set the service route so syslog leaves from the management interface 
 
 To prove it end to end, I created a throwaway address object called `test-marker` (`192.0.2.44/32`, a documentation-only range), committed, and searched for it:
 
-```kql
+```text
 Syslog
 | where Facility == "local5" and SyslogMessage has "test-marker"
 ```
+{: file="KQL" }
 
 The row showed the firewall's management IP as the source, collected by the forwarder. Pipeline proven.
 
@@ -117,11 +118,12 @@ If logs don't arrive, it's almost always one of these five being different in tw
 
 About one second from session end to Sentinel. The egress IP the website saw was the untrust public IP, which confirms the SNAT.
 
-```kql
+```text
 CommonSecurityLog
 | where DeviceVendor == "Palo Alto Networks"
 | where Activity == "Traffic event" and SourceIP == "10.20.3.10"
 ```
+{: file="KQL" }
 
 ## Native vs CEF: which one I'd keep
 
