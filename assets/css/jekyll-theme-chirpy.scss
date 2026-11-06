@@ -42,13 +42,8 @@
   --main-border-color: #d9d6cc;
 }
 
-/* Visitor clicked the sun icon */
-html[data-mode='light'] { @include news-light; }
-
-/* No toggle clicked yet, and the visitor's system is set to light */
-@media (prefers-color-scheme: light) {
-  html:not([data-mode]) { @include news-light; }
-}
+/* Default (no toggle clicked) and sun icon: Chirpy shows light in both */
+html:not([data-mode]), html[data-mode='light'] { @include news-light; }
 
 h1, h2, h3, h4,
 .post-preview h1, #sidebar .site-title {
