@@ -29,3 +29,45 @@
     margin: 1rem auto !important;
   }
 }
+
+/* ===== Admin.News-style look (light mode only) ===== */
+@mixin news-light {
+  --main-bg: #f4f3ee;
+  --topbar-bg: rgba(244, 243, 238, 0.85);
+  --sidebar-bg: #eceae3;
+  --card-bg: #f9f8f4;
+  --text-color: #2a2a2a;
+  --heading-color: #14171a;
+  --link-color: #2c5e45;
+  --main-border-color: #d9d6cc;
+}
+
+/* Visitor clicked the sun icon */
+html[data-mode='light'] { @include news-light; }
+
+/* No toggle clicked yet, and the visitor's system is set to light */
+@media (prefers-color-scheme: light) {
+  html:not([data-mode]) { @include news-light; }
+}
+
+h1, h2, h3, h4,
+.post-preview h1, #sidebar .site-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.content > h1, h1[data-toc-skip] {
+  font-size: 2.6rem;
+  line-height: 1.1;
+}
+
+.post-meta, .post-tag, .dynamic-title {
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+}
+
+#sidebar .nav-item.active .nav-link {
+  color: #2c5e45;
+  border-bottom: 3px solid #2c5e45;
+}
