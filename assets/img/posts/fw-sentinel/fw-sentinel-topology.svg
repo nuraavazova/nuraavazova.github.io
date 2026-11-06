@@ -1,98 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 440" role="img" aria-label="Topology: client traffic goes through the firewall trust and untrust interfaces to the internet; firewall logs go from the management interface to a log forwarder and on to Microsoft Sentinel." xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1ZmQ5NTlhOS02Y2NhLTQ3MTQtOGVjYi0zZDEwODhlZWFhZWEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaC0DVA1L2Nlhe1Ght1LLgtsAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1NTgzYzkzMS0zYTA4LTRlMWYtYWVjZi00MTc4YWFlMjM1YzhscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoDN8DPOpnhkhmOa7EXO1q3AAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggMzc0B01GO0GjPaFBbOJQ8bk19C7QNtBASZMsf04yvkWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJmXPoD8NfyAUssTZJGNmH8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIJe2bZoWP9yPsA8R0laUuk0fIzqMRM0BJnAbayjC0xVIZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQFWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjVmZDk1OWE5LTZjY2EtNDcxNC04ZWNiLTNkMTA4OGVlYWFlYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjE2YzdkZDBhLWM0NGYtNGYwNy1iOWFjLTNiOGU4NDkyNjcyZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAzNzQHTUY7QaM9oUFs4lDxuTX0LtA20EBJkyx/TjK+RaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggUGewWaBRNCv+r9Lx1qjO/11do+OteBZJyEt5icwLhJGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggHyAld1r0tYl1lPRr+csncf5Gut2ta0jwyBFObiP9V3h0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCcxUwAqUDRwlzwlWeEbzAOjxCY0uO59pr/LFEQYahxqiGnz/cQq+bknf+5PZXhoolbgxPbAaWdT63A1xzMKrv8=</c2pa:manifest></metadata>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" role="img" aria-label="Topology: client traffic goes through the firewall trust and untrust interfaces to the internet; firewall logs go from the management interface to a log forwarder and on to Microsoft Sentinel.">
   <defs>
-    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#152028"/></marker>
-    <marker id="ahl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0b8a8a"/></marker>
+    <marker id="ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#14171a"/></marker>
+    <marker id="grn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2c5e45"/></marker>
   </defs>
   <style>
-    .t{font-family:Helvetica,Arial,sans-serif}
-    .m{font-family:Menlo,Consolas,monospace}
+    .serif{font-family:Georgia,'Times New Roman',serif}
+    .sans{font-family:'Source Sans Pro',Helvetica,Arial,sans-serif}
+    .mono{font-family:Menlo,Consolas,monospace}
+    .cap{font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.12em;fill:#6b6a63}
+    .box{fill:#ffffff;stroke:#d9d6cc;stroke-width:1.2}
+    .name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:16px;fill:#14171a}
+    .txt{font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;font-size:13px;fill:#2a2a2a}
+    .ip{font-family:Menlo,Consolas,monospace;font-size:12px;fill:#2a2a2a}
+    .note{font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;font-size:12px;font-style:italic;fill:#6b6a63}
   </style>
-  <rect width="980" height="440" fill="#ffffff"/>
 
-  <!-- VNet -->
-  <rect x="12" y="40" width="760" height="384" rx="12" fill="none" stroke="#5b6b78" stroke-dasharray="5 5"/>
-  <text class="m" x="28" y="30" font-size="12.5" fill="#5b6b78">vnet-fw-lab · 10.20.0.0/16</text>
+  <rect width="1000" height="470" rx="14" fill="#f9f8f4" stroke="#d9d6cc"/>
+
+  <!-- Title -->
+  <text class="cap" x="28" y="34">FIGURE 1 · TWO FLOWS THROUGH ONE VNET</text>
+  <line x1="28" y1="44" x2="972" y2="44" stroke="#d9d6cc"/>
+
+  <!-- VNet frame -->
+  <rect x="22" y="64" width="756" height="372" rx="10" fill="none" stroke="#b9b5a8" stroke-dasharray="4 5"/>
+  <text class="cap" x="38" y="84">VNET · 10.20.0.0/16</text>
 
   <!-- Client -->
-  <rect x="32" y="76" width="150" height="104" rx="10" fill="#2a6fd6" fill-opacity=".10" stroke="#2a6fd6" stroke-width="1.5"/>
-  <text class="t" x="107" y="102" text-anchor="middle" font-weight="700" font-size="15" fill="#2a6fd6">snet-client</text>
-  <text class="m" x="107" y="120" text-anchor="middle" font-size="11.5" fill="#5b6b78">10.20.3.0/24</text>
-  <text class="t" x="107" y="144" text-anchor="middle" font-size="13" fill="#152028">client01</text>
-  <text class="m" x="107" y="162" text-anchor="middle" font-size="12" fill="#152028">10.20.3.10</text>
+  <rect class="box" x="40" y="100" width="150" height="104" rx="8"/>
+  <rect x="40" y="100" width="4" height="104" fill="#2c5e45"/>
+  <text class="cap" x="58" y="122">SNET-CLIENT</text>
+  <text class="name" x="58" y="146">client01</text>
+  <text class="ip" x="58" y="168">10.20.3.10</text>
+  <text class="note" x="58" y="190">no public IP</text>
 
   <!-- UDR -->
-  <rect x="32" y="202" width="150" height="54" rx="8" fill="#ffffff" stroke="#2a6fd6" stroke-dasharray="3 3"/>
-  <text class="t" x="107" y="224" text-anchor="middle" font-weight="700" font-size="12.5" fill="#152028">rt-client (UDR)</text>
-  <text class="m" x="107" y="242" text-anchor="middle" font-size="11" fill="#5b6b78">0.0.0.0/0 → 10.20.2.4</text>
-  <line x1="107" y1="180" x2="107" y2="202" stroke="#2a6fd6" stroke-dasharray="3 3"/>
+  <rect x="40" y="226" width="172" height="54" rx="8" fill="none" stroke="#2c5e45" stroke-dasharray="3 4"/>
+  <text class="sans" x="56" y="248" font-size="13" font-weight="700" fill="#14171a">route table</text>
+  <text class="ip" x="56" y="268" font-size="11">0.0.0.0/0 → 10.20.2.4</text>
+  <line x1="115" y1="204" x2="115" y2="226" stroke="#2c5e45" stroke-dasharray="3 4"/>
 
   <!-- Trust -->
-  <rect x="216" y="76" width="140" height="104" rx="10" fill="#1f8a5b" fill-opacity=".10" stroke="#1f8a5b" stroke-width="1.5"/>
-  <text class="t" x="286" y="102" text-anchor="middle" font-weight="700" font-size="15" fill="#1f8a5b">snet-trust</text>
-  <text class="m" x="286" y="120" text-anchor="middle" font-size="11.5" fill="#5b6b78">10.20.2.0/24</text>
-  <text class="t" x="286" y="144" text-anchor="middle" font-size="13" fill="#152028">ethernet1/2 · Trust</text>
-  <text class="m" x="286" y="162" text-anchor="middle" font-size="12" fill="#152028">10.20.2.4</text>
+  <rect class="box" x="222" y="100" width="140" height="104" rx="8"/>
+  <text class="cap" x="238" y="122">SNET-TRUST</text>
+  <text class="name" x="238" y="146">ethernet1/2</text>
+  <text class="ip" x="238" y="168">10.20.2.4</text>
+  <text class="note" x="238" y="190">Trust zone</text>
 
-  <!-- Firewall -->
-  <rect x="390" y="62" width="180" height="132" rx="12" fill="#0b6e8a" fill-opacity=".12" stroke="#0b6e8a" stroke-width="2.2"/>
-  <text class="t" x="480" y="90" text-anchor="middle" font-weight="700" font-size="16" fill="#152028">fw01 · VM-Series</text>
-  <text class="t" x="480" y="114" text-anchor="middle" font-size="12.5" fill="#152028">rule allow-web-out</text>
-  <text class="t" x="480" y="134" text-anchor="middle" font-size="12.5" fill="#152028">NAT client-snat</text>
-  <text class="t" x="480" y="154" text-anchor="middle" font-size="12.5" fill="#152028">log fwd LF-Sentinel</text>
-  <text class="m" x="480" y="178" text-anchor="middle" font-size="11" fill="#5b6b78">3 NICs</text>
+  <!-- Firewall (hero) -->
+  <rect x="396" y="88" width="180" height="128" rx="10" fill="#2c5e45"/>
+  <text x="414" y="112" font-family="'Source Sans Pro',Helvetica,Arial,sans-serif" font-size="11" letter-spacing=".12em" fill="#cfe0d6">PALO ALTO VM-SERIES</text>
+  <text x="414" y="138" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="20" fill="#ffffff">fw01</text>
+  <text x="414" y="162" font-family="'Source Sans Pro',Helvetica,Arial,sans-serif" font-size="13" fill="#e8f0eb">rule allow-web-out</text>
+  <text x="414" y="180" font-family="'Source Sans Pro',Helvetica,Arial,sans-serif" font-size="13" fill="#e8f0eb">NAT client-snat</text>
+  <text x="414" y="198" font-family="'Source Sans Pro',Helvetica,Arial,sans-serif" font-size="13" fill="#e8f0eb">log fwd LF-Sentinel</text>
 
   <!-- Untrust -->
-  <rect x="604" y="76" width="150" height="104" rx="10" fill="#c8502f" fill-opacity=".10" stroke="#c8502f" stroke-width="1.5"/>
-  <text class="t" x="679" y="102" text-anchor="middle" font-weight="700" font-size="15" fill="#c8502f">snet-untrust</text>
-  <text class="m" x="679" y="120" text-anchor="middle" font-size="11.5" fill="#5b6b78">10.20.1.0/24</text>
-  <text class="t" x="679" y="144" text-anchor="middle" font-size="13" fill="#152028">ethernet1/1 · Untrust</text>
-  <text class="m" x="679" y="162" text-anchor="middle" font-size="11" fill="#152028">10.20.1.4 + pub IP</text>
+  <rect class="box" x="610" y="100" width="150" height="104" rx="8"/>
+  <text class="cap" x="626" y="122">SNET-UNTRUST</text>
+  <text class="name" x="626" y="146">ethernet1/1</text>
+  <text class="ip" x="626" y="168">10.20.1.4</text>
+  <text class="note" x="626" y="190">+ public IP</text>
 
   <!-- Internet -->
-  <rect x="808" y="90" width="152" height="76" rx="10" fill="#ffffff" stroke="#5b6b78"/>
-  <text class="t" x="884" y="122" text-anchor="middle" font-weight="700" font-size="15" fill="#152028">Internet</text>
-  <text class="t" x="884" y="142" text-anchor="middle" font-size="12" fill="#5b6b78">public website</text>
+  <rect x="812" y="114" width="166" height="76" rx="8" fill="none" stroke="#14171a" stroke-width="1.2"/>
+  <text class="name" x="830" y="148">Internet</text>
+  <text class="note" x="830" y="170">public website</text>
 
-  <!-- client flow -->
-  <path d="M182 128H214" stroke="#152028" stroke-width="1.6" marker-end="url(#ah)"/>
-  <path d="M356 128H388" stroke="#152028" stroke-width="1.6" marker-end="url(#ah)"/>
-  <path d="M570 128H602" stroke="#152028" stroke-width="1.6" marker-end="url(#ah)"/>
-  <path d="M754 128H806" stroke="#152028" stroke-width="1.6" marker-end="url(#ah)"/>
-  <text class="m" x="780" y="120" text-anchor="middle" font-size="10.5" fill="#5b6b78">SNAT</text>
+  <!-- Client flow -->
+  <path d="M190 152H220" stroke="#14171a" stroke-width="1.6" marker-end="url(#ink)"/>
+  <path d="M362 152H394" stroke="#14171a" stroke-width="1.6" marker-end="url(#ink)"/>
+  <path d="M576 152H608" stroke="#14171a" stroke-width="1.6" marker-end="url(#ink)"/>
+  <path d="M760 152H810" stroke="#14171a" stroke-width="1.6" marker-end="url(#ink)"/>
+  <text class="cap" x="786" y="140" text-anchor="middle" font-size="9">SNAT</text>
 
   <!-- Mgmt -->
-  <rect x="390" y="268" width="180" height="96" rx="10" fill="#7a4fc4" fill-opacity=".10" stroke="#7a4fc4" stroke-width="1.5"/>
-  <text class="t" x="480" y="294" text-anchor="middle" font-weight="700" font-size="15" fill="#7a4fc4">snet-mgmt</text>
-  <text class="m" x="480" y="312" text-anchor="middle" font-size="11.5" fill="#5b6b78">10.20.0.0/24</text>
-  <text class="t" x="480" y="334" text-anchor="middle" font-size="13" fill="#152028">MGT · admin + syslog source</text>
-  <text class="m" x="480" y="352" text-anchor="middle" font-size="12" fill="#152028">10.20.0.4</text>
-  <line x1="480" y1="194" x2="480" y2="268" stroke="#7a4fc4" stroke-width="1.5"/>
-  <text class="m" x="490" y="236" font-size="10.5" fill="#5b6b78">same VM, NIC 1</text>
-  <text class="t" x="300" y="306" text-anchor="end" font-size="12" fill="#5b6b78">HTTPS 443 from one /32</text>
-  <path d="M304 302H386" stroke="#7a4fc4" stroke-dasharray="2 3" marker-end="url(#ah)"/>
+  <rect class="box" x="396" y="292" width="180" height="104" rx="8"/>
+  <text class="cap" x="414" y="314">SNET-MGMT</text>
+  <text class="name" x="414" y="338">MGT interface</text>
+  <text class="ip" x="414" y="360">10.20.0.4</text>
+  <text class="note" x="414" y="382">admin + syslog source</text>
+  <line x1="486" y1="216" x2="486" y2="292" stroke="#14171a" stroke-width="1.2"/>
+  <text class="note" x="496" y="258">same VM, NIC 1</text>
+  <text class="note" x="300" y="336" text-anchor="end">HTTPS 443 from one /32</text>
+  <path d="M306 332H394" stroke="#6b6a63" stroke-dasharray="2 3" marker-end="url(#ink)"/>
 
   <!-- Logs -->
-  <rect x="604" y="268" width="150" height="96" rx="10" fill="#0b8a8a" fill-opacity=".10" stroke="#0b8a8a" stroke-width="1.5"/>
-  <text class="t" x="679" y="294" text-anchor="middle" font-weight="700" font-size="15" fill="#0b8a8a">snet-logs</text>
-  <text class="m" x="679" y="312" text-anchor="middle" font-size="11.5" fill="#5b6b78">10.20.4.0/24</text>
-  <text class="t" x="679" y="334" text-anchor="middle" font-size="13" fill="#152028">log-fwd01 rsyslog+AMA</text>
-  <text class="m" x="679" y="352" text-anchor="middle" font-size="12" fill="#152028">10.20.4.10</text>
-  <path d="M570 316H602" stroke="#0b8a8a" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ahl)"/>
-  <text class="m" x="586" y="386" text-anchor="middle" font-size="10.5" fill="#0b8a8a">TCP 514</text>
-  <line x1="586" y1="320" x2="586" y2="374" stroke="#0b8a8a" stroke-width=".8" stroke-dasharray="2 3"/>
+  <rect class="box" x="610" y="292" width="150" height="104" rx="8"/>
+  <rect x="610" y="292" width="4" height="104" fill="#2c5e45"/>
+  <text class="cap" x="628" y="314">SNET-LOGS</text>
+  <text class="name" x="628" y="338">log-fwd01</text>
+  <text class="ip" x="628" y="360">10.20.4.10</text>
+  <text class="note" x="628" y="382">rsyslog + AMA</text>
+  <path d="M576 344H608" stroke="#2c5e45" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#grn)"/>
+  <text class="cap" x="593" y="418" text-anchor="middle" font-size="10">TCP 514</text>
+  <line x1="593" y1="348" x2="593" y2="406" stroke="#2c5e45" stroke-width=".8" stroke-dasharray="2 3"/>
 
   <!-- Sentinel -->
-  <rect x="808" y="268" width="152" height="96" rx="10" fill="#ffffff" stroke="#8a6d0b" stroke-width="1.5"/>
-  <text class="t" x="884" y="296" text-anchor="middle" font-weight="700" font-size="15" fill="#8a6d0b">Sentinel</text>
-  <text class="m" x="884" y="316" text-anchor="middle" font-size="11" fill="#5b6b78">law-soc</text>
-  <text class="t" x="884" y="334" text-anchor="middle" font-size="10.5" fill="#152028">local4 → CommonSecurityLog</text>
-  <text class="t" x="884" y="352" text-anchor="middle" font-size="10.5" fill="#152028">local5 → Syslog</text>
-  <path d="M754 316H806" stroke="#0b8a8a" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ahl)"/>
-  <text class="m" x="780" y="306" text-anchor="middle" font-size="10" fill="#5b6b78">NAT gw</text>
+  <rect x="812" y="292" width="166" height="104" rx="8" fill="#ffffff" stroke="#2c5e45" stroke-width="1.6"/>
+  <text class="cap" x="828" y="314">MICROSOFT</text>
+  <text class="name" x="828" y="338">Sentinel</text>
+  <text class="sans" x="828" y="360" font-size="12" fill="#2a2a2a">local4 → CommonSecurityLog</text>
+  <text class="sans" x="828" y="380" font-size="12" fill="#2a2a2a">local5 → Syslog</text>
+  <path d="M760 344H810" stroke="#2c5e45" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#grn)"/>
+  <text class="cap" x="786" y="330" text-anchor="middle" font-size="9">NAT GW</text>
 
-  <!-- legend -->
-  <path d="M28 412H56" stroke="#152028" stroke-width="1.6"/>
-  <text class="t" x="62" y="416" font-size="12" fill="#5b6b78">client traffic</text>
-  <path d="M150 412H178" stroke="#0b8a8a" stroke-width="1.8" stroke-dasharray="6 4"/>
-  <text class="t" x="184" y="416" font-size="12" fill="#5b6b78">log flow</text>
+  <!-- Legend -->
+  <path d="M40 456H70" stroke="#14171a" stroke-width="1.6"/>
+  <text class="sans" x="78" y="460" font-size="12" fill="#6b6a63">client traffic</text>
+  <path d="M170 456H200" stroke="#2c5e45" stroke-width="2" stroke-dasharray="6 4"/>
+  <text class="sans" x="208" y="460" font-size="12" fill="#6b6a63">log flow</text>
 </svg>
